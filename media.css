@@ -1,0 +1,53 @@
+@media screen and (max-width:1024px)
+{
+    .hero-text h1{
+        line-height: 68px;
+        font-size: 66px;
+    }
+    .hero-text h2{
+        font-size: 67px;
+        line-height: 64px;
+    }
+    .hero-text h3{
+        letter-spacing: 2px;
+    font-size: 11px;
+}
+    
+}
+@media  screen and (max-width:768px){
+    .hero-text h1{
+        font-size: 55px;
+    }
+    .nav-links {
+        display: none;
+    
+    }
+    .navbar img{
+        display: block;
+        background-color: white;
+        padding: 7px;
+    }
+}
+
+@media  screen and (max-width:425px)
+{
+    .hero-text h1{
+        font-size: 27px;
+    }
+    .hero-text h2{
+        font-size: 43px;
+        line-height: 52px;
+    }
+}
+@media screen and (max-width:320px)
+{
+    .hero-text h1{
+        font-size: 23px;
+    }
+    .hero-text h2{
+        font-size: 36px;
+    }
+    .hero-text h3{
+        font-size: 10px;
+    }
+}

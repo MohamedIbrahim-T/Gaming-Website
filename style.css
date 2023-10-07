@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:black;
+}
+.navbar{
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-blend-mode: lighten;
+
+}
+.logo h1{
+    color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.nav-links a li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.navbar img{
+    display: none;
+}
+.nav-buttons{
+margin-left: 14px;
+display: flex;
+column-gap: 9px;
+}
+.nav-buttons #log-in{
+    background-color: #fcfc08ed;
+    padding:8px 20px 8px 20px;
+    color: black;
+    border-radius: 4px;
+    border: transparent;
+
+}
+#log-in a{
+    color: black;
+}
+#sign-up{
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 4px;
+    border: transparent;
+}
+#sign-up a{
+    color: black;
+}
+.nav-links a:hover{
+    color:#fcfc08ed;
+}
+
+
+.hero-section{
+    background:rgba(0,0,0,0.48)url(assests/1292474.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    animation:back 11.2s linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes back{
+    0%{
+        background-image: url(assests/2079620.jpg);
+
+        
+    }
+    20%{
+        background-image: url(assests/407341.jpg);
+
+         
+    }
+    40%{
+        background-image: url(assests/1245715-fotor-202310082750.jpg);
+    
+    }
+60%{
+        background-image: url(assests/1696140-fotor-202310082930.jpg);
+    }
+80%{
+background-image: url(assests/190978.jpg);
+}
+100%{
+    background-image: url(assests/190890.jpg);
+}
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13%;
+}
+.hero-text h1{
+    font-size: 95px;
+    color: #fcfc08ed;
+    letter-spacing: 1px;
+    font-weight: 800;
+line-height: 116px;
+}
+.hero-text h2{
+    -webkit-text-stroke-color: white;
+    color: transparent  ;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: thin;
+    font-size: 103px;
+    
+    text-align: center;
+    line-height: 98px;
+    font-weight: 800;
+
+}
+.hero-text h3{
+    color: yellow;
+    font-weight: 700;
+    letter-spacing: 7px;
+ 
+    line-height: 35px;
+}
+.hero-button{
+    text-align: center;
+    margin-top: 15px;
+
+}
+.hero-button button{
+    background-color: white;
+    padding: 12px 30px 12px 30px;
+    border: transparent;
+    border-radius: 3px;
+
+}
+.hero-button button a{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.hero-button img{
+    position: relative;
+    top: 5px;
+    width: 18px;
+    left: 10px;
+}
+.hero-button button:hover{
+background-color: #fcfc08ed;
+cursor: pointer;
+}
