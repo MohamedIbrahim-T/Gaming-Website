@@ -195,6 +195,7 @@ cursor: pointer;
 }
 .card-detail h3{
 color: #ffff;
+font-weight: 300;
 }
 .card-detail h4{
     color: #FFF512;
@@ -207,5 +208,410 @@ width: 66px;
 }
 .body-information{
     background-color:black;
-    height: 100vh;
+
+}
+/*tournament*/
+.tour-head{
+    text-align: center;
+    color: white;
+
+
+}
+.tourcdhead{
+    padding:0px 0px 2px 12px;
+}
+.tourcdby{
+    padding: 12px;
+}
+.tournament-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(375px,1fr));
+    max-width: 78%;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    row-gap: 12px;
+    column-gap: 12px;
+}
+
+.tournaments{
+    margin-top: 20px;
+    padding-bottom: 40px;
+
+}
+.tour-head h2 {
+        position: relative;
+        bottom: 105px;
+        text-shadow: 0px 0px 7px rgb(255 255 0);
+        font-size: 52px;
+        color: yellow;
+}
+.tour-head h1{
+    font-size: 91px;
+    position: relative;
+    -webkit-text-stroke: white;
+    /* top: 122%; */
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    opacity: 0.1;
+}
+.link-card{
+    border: 3px solid #b38501;
+    border-radius: 8px;
+}
+.tour-card-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tourcdhead li{
+    text-decoration: none;
+    list-style: none;
+    color: #9B9B9B;
+    border-radius: 23px;
+    display: inline-block;
+    border: 1px solid #373737;
+    font-size: 12px;
+    padding: 1px 23px 1px 23px;
+}
+.tournaments a{
+    text-decoration: none;
+    border-radius: 8px;
+}
+.tourcdpara{
+    color: white;    
+    font-weight: 500;    
+    letter-spacing: 1px;
+    padding-left: 15px;
+    word-spacing: 1px;    
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 19px;
+
+}
+.tour-card-text{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #10121c;
+}
+.text{
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.icon{
+    padding-right: 11px;
+}
+.tour-ico{
+    display: flex;
+}
+.tournament-box{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+    padding: 10px 13px 10px 13px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.tourcdregister{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 11px;
+    border-top-left-radius: 4px;
+    padding: 8px;
+    border-top-right-radius: 4px;
+    border-radius: 8px;
+}
+.tournament-box img{
+    position: relative;
+    bottom: 4px;
+    width: 26px;
+    padding-left: 9px;
+}
+.tourcdregister button{
+    border: transparent;
+    border-radius: 5px;
+    background-color:#FFF512;
+padding: 7px 15px 7px 15px;
+}
+.tourcdregister button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.view-more button{
+    border: transparent;
+    border-radius: 5px;
+    background-color:#10121c;
+padding:10px 25px 10px 25px;
+transition: 0.2s ease-in-out;
+
+}
+.view-more{
+    text-align: center;
+    padding-bottom: 18px;
+}
+.view-more button a{
+    text-decoration: none;
+    color:#FFF512;
+    font-weight: 400;
+    font-size: 18px;
+}
+.view-more button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*live-stream*/
+.stream-head h2 {
+    position: relative;
+    bottom: 117px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.66);
+    font-size: 66px;
+    color: black;
+}
+.stream-head h1{
+    font-size: 91px;
+    position: relative;
+    -webkit-text-stroke: white;
+    /* top: 122%; */
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    opacity: 0.1;
+}
+.img-1 img{
+    position: absolute;
+    top: 118%;
+    opacity: 0.1;
+
+}
+.live-stream{
+text-align: center;
+background-blend-mode: color-burn;
+background: rgba(0, 0, 0, 0.668) url(assests/Pubg\ Thumbnail\ Background\ Download__SandyZooming\ On\ Youtube\ ♥.jfif);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.stream-video{
+    width: 64%;
+    height: 38rem;
+    position: relative;
+    margin: auto;
+    bottom: 61px;
+}
+/*mission card*/
+.mission-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(375px,1fr));
+    max-width: 78%;
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+    margin: auto;
+    column-gap: 12px;
+    padding-bottom: 20px;
+}
+.mission-card-1{
+    background-color: #ffff00de;
+    box-shadow: 1px 9px 10px -6px rgb(241 229 0 / 81%);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 22px;
+}
+.mission-img img{
+    position: absolute;
+    right: 0;
+    top: 380%;
+    width: 29%;
+    opacity: 0.2;
+}
+.mission-head h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+.mission-head p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #373737;
+    text-align: left;
+
+}
+.our-mission{
+background-color: #000000;
+}
+.our-head{
+    text-align: center;
+    padding-top: 20px;
+}
+.our-head h1{
+    font-size: 91px;
+    position: relative;
+    -webkit-text-stroke: white;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    opacity: 0.1;
+    
+
+}
+.our-head h2{
+    position: relative;
+    bottom: 117px;
+    text-shadow: 0px 0px 7px rgb(255 255 0);
+    font-size: 66px;
+    color: yellow;
+}
+.star-play{
+    background-image: url(assests/Picsart_23-10-11_01-21-42-280.jpg);
+    height: 55VH;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stop{
+    position: relative;
+    /* text-align: -webkit-match-parent; */
+    top: 203px;
+    display: inline-block;
+    left: 43%;
+}
+.stop h1{
+    font-size: 53px;
+    font-weight: 900;
+}
+.stop h3{
+    color: yellow;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 13px;
+}
+.stop button{
+        margin-top: 21px;
+        padding: 11px 26px 11px 26px;
+        border: none;
+        border-radius: 2px;
+        background-color: #ffff;
+}
+.stop button a{
+    color: #000000;
+    text-decoration: none;
+}
+.stop button:hover,button{
+    background-color: #FFF512;
+    cursor: pointer; 
+}
+.footer{
+    background-color: #000000;
+}
+
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    max-width: 78%;
+    margin: auto;
+    padding-top: 34px;
+}
+
+.footer-1{
+    width: 426px;
+}
+.footer-1 h2{
+    color: yellow;
+
+}
+.footer-1 li{
+    color: #9B9B9B;
+}
+.footer-1 h3{
+    color: #373737;
+}
+.footer-2{
+    padding-right: 10px;
+}
+.footer-2,.footer-3 h3{
+    color: #e0c513e8;
+}
+.footer-1 li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7px 0px 7px 0px;
+}
+.footer-1 h3{
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px 0px 5px 0px;
+}
+.footer-main a{
+    text-decoration: none;
+}
+.footer-3 li a{
+    color: white;
+}
+.footer-main li{
+    list-style: none;
+    padding-bottom: 8px;
+}
+.footer-3 .follow-us ul {
+    display: flex;
+    padding-top: 10px;
+}
+.footer-2 li a{
+    color: white;
+    padding-bottom: 6px;
+}
+.footer-3 li img{
+    width: 36px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.footer-main a:hover{
+    color: #FFF512;
+}
+.send-message button{
+    width: 309px;
+    height: 45px;
+    margin-top: 16px;
+    background-color: #e0c513e8;
+    border: none;
+    border-radius: 6px;
+}
+.send-message button a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+.send-text input{
+    width: 308px;
+    height: 43px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid yellow;
+}
+.send-message button a:hover,button{
+cursor: pointer;
+
+}
+.copyright h3{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+.copyright {
+    padding: 9px;
+   
+}
+.footer hr{
+    margin-top: 18px;
+    border: 1px solid grey;
 }
