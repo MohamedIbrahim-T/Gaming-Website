@@ -23,6 +23,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(0);
 }
 .nav-links ul {
     display: flex;
@@ -50,9 +52,7 @@ nav{
     position: relative;
     z-index: 1;
 }
-.navbar img{
-    display: none;
-}
+
 .nav-buttons{
 margin-left: 14px;
 display: flex;
@@ -80,6 +80,9 @@ column-gap: 9px;
 }
 .nav-links a:hover{
     color:#fcfc08ed;
+}
+#icon{
+    display: none;
 }
 .banner{
     background:url(assests/1144612.jpg);
@@ -120,12 +123,11 @@ height: 111vh;
     position: relative;
     color: #FFF512;
     letter-spacing: 7px;
+    text-shadow: 0px 0px 7px rgb(255 255 0);
     font-size: 142px;
     text-align: center;
     line-height: 151px;
     font-weight: 700;
-    
-    text-shadow: 1px 4px 10px rgba(0,0,0,0.6);
 
 
 }
@@ -258,6 +260,11 @@ width: 66px;
 .link-card{
     border: 3px solid #b38501;
     border-radius: 8px;
+    transition: 0.2s ease-in-out;
+}
+.link-card:hover{
+    transform: scale(1.1);
+    
 }
 .tour-card-img img{
     width: 100%;
@@ -397,7 +404,7 @@ background-size: cover;
 
 }
 .stream-video{
-    width: 64%;
+    max-width: 64%;
     height: 38rem;
     position: relative;
     margin: auto;
@@ -409,6 +416,7 @@ background-size: cover;
     grid-template-columns: repeat(auto-fill,minmax(375px,1fr));
     max-width: 78%;
     position: relative;
+    row-gap: 12px;
     z-index: 1;
     bottom: 50px;
     margin: auto;
@@ -443,6 +451,7 @@ background-size: cover;
     text-align: left;
 
 }
+
 .our-mission{
 background-color: #000000;
 }
