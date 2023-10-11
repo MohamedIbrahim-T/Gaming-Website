@@ -236,7 +236,7 @@ bottom: 96px;
 
 font-size: 42px;
 color: black;
--webkit-text-stroke: none;
+-webkit-text-stroke:navajowhite;
 line-height: 67px;
 }
     .hero-text h2{
@@ -361,25 +361,12 @@ font-size: 34px;
     }
    
 }
-@media screen and(max-width:1440px) {
-    .stop {
-        left: 40%;
-    }
-}
-@media screen and(max-width:1248px) {
-    .stop h1 {
-    font-size: 47px;
-    }
-}
-@media screen and (max-width:1216px) {
-    .stop h1 {
-    font-size:40px;
 
+@media screen and(max-width:1440px){
+    .stop{
+        left: 39%;
     }
-    .hero-section img{
+    .hero-text img{
         display: none;
     }
-.hero-text h1{
-    font-size: 133px;
-}    
 }
