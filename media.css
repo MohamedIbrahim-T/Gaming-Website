@@ -361,12 +361,65 @@ font-size: 34px;
     }
    
 }
+@media screen and(min-width:299px){
+.tournament-card{
+    max-width: 99%;
+}    
+}
 
-@media screen and(max-width:1440px){
-    .stop{
-        left: 39%;
+@media screen and (max-width:320px)
+ {
+    .hero-text h2{
+        line-height: 35px;
+        font-size: 29px;
     }
-    .hero-text img{
-        display: none;
+    .banner{
+        height: 71vh;
+    }
+    .img-1 img{
+        width: 59%;
+    }
+    .tour-head h1{
+        font-size: 36px;
+    }
+    .tour-head h2 {
+        font-size: 19px;
+        bottom: 42px;
+    }
+    .stream-head h1{
+        font-size: 42px;
+    }
+    .stream-head h2 {
+        font-size: 35px;
+        bottom: 58px;
+    }
+    .our-head h1{
+        font-size: 40px;
+    }
+    .our-head h2 {
+        font-size: 34px;
+        bottom: 56px;
+    }
+    .star-play{
+        height: 15vh;
+    }
+    .stop h1 {
+        font-size: 10px;
+    }
+    .stop h3{
+        font-size: 7px;
+    }
+    .stop button a{
+        font-size: 8px;
+    }
+    .stop button{
+        padding: 0px 9px 0px 9px;
+    
+    }
+    .send-text input{
+        max-width: 266px;
+    }
+    .send-message button{
+        max-width: 282px;
     }
 }

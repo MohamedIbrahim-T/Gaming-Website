@@ -227,7 +227,7 @@ width: 66px;
 }
 .tournament-card{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(375px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(288px,1fr));
     max-width: 78%;
     position: relative;
     z-index: 1;
@@ -413,7 +413,7 @@ background-size: cover;
 /*mission card*/
 .mission-card{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(375px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(298px,1fr));
     max-width: 78%;
     position: relative;
     row-gap: 12px;
@@ -586,7 +586,7 @@ background-color: #000000;
     color: #FFF512;
 }
 .send-message button{
-    width: 309px;
+    max-width: 309px;
     height: 45px;
     margin-top: 16px;
     background-color: #e0c513e8;
@@ -599,7 +599,7 @@ background-color: #000000;
     font-weight: 400;
 }
 .send-text input{
-    width: 308px;
+   max-width: 308px;
     height: 43px;
     background-color: black;
     border: none;
