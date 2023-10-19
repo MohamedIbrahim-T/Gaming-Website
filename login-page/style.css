@@ -5,8 +5,11 @@
     padding: 0;
 }
 .login-page{
-    background:rgba(0,0,0,0.12) url(Desktop\ -\ 1.jpg);
-    filter: blur(5px);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0 0 0 / 68%) url(Desktop\ -\ 1.jpg);
+    background-blend-mode: color-burn;
     background-position: center;
 background-size: cover;
 width: 100%;
@@ -19,23 +22,20 @@ height: 100vh;
 .password a{
     text-decoration: none;
 }
-.form-1 input{
-    width: 83%;
-}
+
 .form {
     z-index: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 518px;
-    width: 377px;
-    transform: translate(-50%,-50%);
+    max-width: 286px;
+    margin: auto;
+    display:flex ;
+    align-content: center;
+    justify-content: center;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-   
     -webkit-backdrop-filter: blur( 0.5px );
     border-radius: 10px;
-    padding: 43px 30px 0px 29px;
+    padding: 43px 30px 23px 29px;
+   
 }
 .form-1 input:focus{
     outline: none;
@@ -59,18 +59,20 @@ height: 100vh;
     padding-right: 6px;
 }
 .username{
-background-color: #262626;
-padding: 9px;
-border-radius: 8px;
-margin-top: 14px;
-}
-.username input{
-    border: none;
-    background: transparent;
-    font-size: 12px;
-    font-weight: 100;
-    text-align: inherit;
-}
+    background-color: #262626;
+    padding: 9px;
+    border-radius: 8px;
+    margin-top: 14px;
+    }
+    .username input{
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        color: #cccccc;
+        font-weight: 400;
+        padding-left: 4px;
+        
+    }
 .fa-regular, .far {
     font-weight: 400;
     color: #626262;
@@ -79,18 +81,20 @@ margin-top: 14px;
     top: 2px;
 }
 .password{
-background-color: #262626;
-padding: 9px;
-border-radius: 8px;
-margin-top: 14px;
-}
-.password input{
-    border: none;
-    background: transparent;
-    font-size: 12px;
-    font-weight: 100;
-    text-align: inherit;
-}
+    background-color: #262626;
+    padding: 9px;
+    border-radius: 8px;
+    margin-top: 14px;
+    }
+    .password input{
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        color: #cccccc;
+        font-weight: 400;
+        padding-left: 4px;
+    
+    }
 .forgot h3{
     font-size: 14px;
     padding-top: 8px;
@@ -135,4 +139,12 @@ hr{
 }
 .social ul li a{
     font-size: 30px;
+}
+
+@media (max-width:358px){
+    .head h2{
+        max-width: 72%;
+    }
+    
+
 }

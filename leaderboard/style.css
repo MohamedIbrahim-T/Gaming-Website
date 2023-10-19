@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kanit';
+  }
+  .navbar{
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-blend-mode: lighten;
+
+}
+.logo h1{
+    color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(0);
+}
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.nav-links a li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+nav{
+    position: relative;
+    z-index: 1;
+    background-color:#212529;
+}
+.nav-buttons{
+    margin-left: 14px;
+    display: flex;
+    column-gap: 9px;
+    }
+    .nav-buttons #log-in{
+        background-color: #fcfc08ed;
+        padding:8px 20px 8px 20px;
+        color: black;
+        border-radius: 4px;
+        border: transparent;
+    
+    }
+    #log-in a{
+        color: black;
+    }
+    #sign-up{
+        background-color: white;
+        padding: 8px 20px 8px 20px;
+        border-radius: 4px;
+        border: transparent;
+    }
+    #sign-up a{
+        color: black;
+    }
+    .nav-links a:hover{
+        color:#fcfc08ed;
+    }
+    #icon{
+        display: none;
+    }
+    @media  screen and (max-width:768px){
+
+        .navbar{
+            display: block;
+    
+        }
+       
+        .nav-links ul{
+            display: block;
+        }
+        .nav-links{
+            display: none;
+            padding: 9px;
+         
+        }
+        .nav-links.show{
+            display: block;
+        }
+        .nav-links a li{
+    padding-bottom: 6px;
+        }
+        .nav-buttons{
+            margin: 0;
+        }
+        .navbar #icon{
+            display: block;
+            background-color: white;
+            padding: 4px 10px 0px 9px;
+        }
+        .navbar #icon{
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            display: block;
+        }
+    }
+    .footer{
+        background-color: #000000;
+    }
+    
+    .footer-main{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        max-width: 78%;
+        margin: auto;
+        padding-top: 34px;
+    }
+    
+    .footer-1{
+        width: 426px;
+    }
+    .footer-1 h2{
+        color: yellow;
+    
+    }
+    .footer-1 li{
+        color: #9B9B9B;
+    }
+    .footer-1 h3{
+        color: #373737;
+    }
+    .footer-2{
+        padding-right: 10px;
+    }
+    .footer-2,.footer-3 h3{
+        color: #e0c513e8;
+    }
+    .footer-1 li{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 7px 0px 7px 0px;
+    }
+    .footer-1 h3{
+        font-weight: 200;
+        text-transform: capitalize;
+        font-size: 18px;
+        padding: 5px 0px 5px 0px;
+    }
+    .footer-main a{
+        text-decoration: none;
+    }
+    .footer-3 li a{
+        color: white;
+    }
+    .footer-main li{
+        list-style: none;
+        padding-bottom: 8px;
+    }
+    .footer-3 .follow-us ul {
+        display: flex;
+        padding-top: 10px;
+    }
+    .footer-2 li a{
+        color: white;
+        padding-bottom: 6px;
+    }
+    .footer-3 li img{
+        width: 36px;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+    
+    .footer-main a:hover{
+        color: #FFF512;
+    }
+    
+      
+      .leaderboard {
+        width:62%;
+        margin: 5rem auto;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 16px 1px #aaa;
+        font-family: sans-serif;
+      }
+      .leader-board{
+        background: #feff0094 url(assests/_Discover\ the\ Ultimate\ Gaming\ Adventure\ for\ Kids\ with\ Our\ Young\ Gamer\ Titles!_.jfif);
+        background-repeat: no-repeat;
+        background-blend-mode: color-burn;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      header {
+        background-color: #feff00e0;
+        color: white;
+        text-transform: uppercase;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        height: 14rem;
+        position: relative;
+      }
+      
+     .leaderboard h1 {
+        font-size: 5rem;
+        line-height: 3rem;
+        position: absolute;
+        margin-left: 3rem;
+        top: 5rem;
+        color: #000000;
+      }
+      
+      .leader-img {
+        display: flex;
+        justify-content: flex-end;
+        /* width: 27%; */
+        align-items: center;
+        position: relative;
+        bottom: 72px;
+      }
+      .leader-img img{
+        width: 18%;
+      }
+      
+      table {
+        background-color: #16181e;
+        color: #999;
+        width: 100%;
+        border-collapse: collapse;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        overflow: hidden;
+      }
+      
+      thead {
+        font-size: 0.7rem;
+        color: #555;
+        text-transform: uppercase;
+      }
+      
+      tbody .nick {
+        color: white;
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+      
+      tbody tr:nth-child(2n) {
+        background-color: #1f232c;
+      }
+      
+      .nick {
+        text-align: left;
+      }
+      
+      .rank,
+      .sp,
+      .kd {
+        text-align: center;
+      }
+      
+      .rank {
+        width: 4ch;
+        padding-left: 1rem;
+      }
+      
+      
+      
+      th {
+        padding: 1.5rem 1rem 0.5rem;
+      }
+      
+      td {
+        padding: 1rem 1rem;
+      }
+      
+      /* #1f232c */
+      @media (max-width:2560px){
+        .leader-img img{
+            width: 10.5%;
+        }
+        .leader-img img{
+            width: 18%;
+        }
+       
+      }
+      @media (max-width:1492px){
+        .leader-img img{
+            display: none;
+                    }
+      }
+      @media (max-width:895px){
+        .leaderboard h1{
+            top:3rem;
+            line-height: 4rem;
+        }
+      }
+      @media (max-width:606px){
+        .leaderboard{
+            width: 89%;
+        }
+      }
+      @media (max-width: 440px) {
+        table{
+        border: 3px solid #6e0737
+        }
+        table thead tr{
+        display:none
+        }
+        table tr{
+        display:block;
+        }
+        table th, table td{
+        padding: .5em
+        }
+        table td{
+        text-align:right;
+        display:block;
+        font-size: 1em;
+        }
+        table td::before{
+            content: attr(data-title) ":";
+            float: left;
+
+        }
+        tbody tr:nth-child(even){
+            background-color: black;
+        }
+        .rank{
+            width: auto;
+            padding-left: 0;
+            text-align: right;
+        }
+        .nick{
+            
+            text-align: end;
+            color:#99999;
+        }
+        .rank, .sp, .kd {
+            text-align: end;
+            padding: 7px;
+        }
+        
+    }
+    @media (max-width:404px){
+        .leaderboard h1{
+            font-size: 3rem;
+                top: 4rem;
+                line-height: 3rem;
+        }
+    }
